@@ -12,7 +12,7 @@ console.log("RESULT: ");
 : (userScore <= 93) ? console.log("Your equivalent Grade is “1.50” Above Average")
 : (userScore <= 96) ? console.log("Your equivalent Grade is “1.25” Excellent")
 : (userScore >= 97) ? console.log("Your equivalent Grade is “1.00” Excellent")
-: console.log("Score Input error");
+: console.log("Score Input error"); //I just need to do this somehow
 
 if (userScore <= 74) {
     console.log("Final Remarks: FAILED, Needs Improvement")
